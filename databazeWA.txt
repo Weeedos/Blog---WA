@@ -1,0 +1,4 @@
+CREATE TABLE `blog_db`.`posts` (`id` INT(100) NOT NULL AUTO_INCREMENT , `title` VARCHAR(300) NOT NULL , `content` VARCHAR(300) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+CREATE TABLE `blog_db`.`user` (`id` INT(50) NOT NULL AUTO_INCREMENT , `username` VARCHAR(30) NOT NULL , `password` VARCHAR(30) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
