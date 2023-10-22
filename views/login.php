@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $password = $_POST["password"];
 
     $host = 'localhost';
-    $dbname = 'shop';
+    $dbname = 'blog_db';
     $username_db = 'root';
     $password_db = '';
 
